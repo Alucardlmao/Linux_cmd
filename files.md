@@ -27,3 +27,16 @@ ln - Create links between files {-s: Create symbolic (soft/shortcut) links}
 
 find - Search for files and directories {-name: Search by filename}
                                         {-type: Search by file type}
+
+File Compression and Archiving Commands
+
+tar - Create or extract archive files {-c: Create a new archive}
+                                      {-x: Extract files from an archive}
+                                      {-f: Specify the archive file name}
+                                      {-v: Verbose mode}
+                                      {-z: Compress the archive with gzip}
+                                      {-j: Compress the archive with bzip2}
+
+gzip - Compress files {-d: Decompress files}
+
+zip - Create compressed zip archives {-r: Recursively include directories}
